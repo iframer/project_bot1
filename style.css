@@ -846,7 +846,7 @@ header.sticky{
 
 
 .container-box_x img{
-  width: 300px;
+  width: 270px;
   border-radius:1rem;
   box-shadow: #1e1e1e 3px 3px 3px 3px,
               #182d42 10px 10px 10px 10px;
@@ -1163,7 +1163,8 @@ header.sticky{
 }
 
 .container_x{
-  margin-left: 20px;
+  align-items:center;
+  margin-right: 150px;
 }
 
 }
