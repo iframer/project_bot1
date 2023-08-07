@@ -836,8 +836,7 @@ header.sticky{
 }
 
 .container_x{
-  margin-left: 20px;
-  padding: 30px 14% 50px;
+  padding: 30px 14% 70px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 2rem;
