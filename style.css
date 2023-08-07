@@ -836,7 +836,8 @@ header.sticky{
 }
 
 .container_x{
-  padding: 30px 14% 70px;
+  margin-left: 20px;
+  padding: 30px 14% 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 2rem;
@@ -845,7 +846,7 @@ header.sticky{
 
 
 .container-box_x img{
-  width: 270px;
+  width: 300px;
   border-radius:1rem;
   box-shadow: #1e1e1e 3px 3px 3px 3px,
               #182d42 10px 10px 10px 10px;
@@ -1162,8 +1163,7 @@ header.sticky{
 }
 
 .container_x{
-  align-items:center;
-  margin-right: 150px;
+  margin-left: 20px;
 }
 
 }
