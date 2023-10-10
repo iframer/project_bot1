@@ -24,24 +24,11 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 });
 
 
-
-
-
-
-
-
-
 const header = document.querySelector("header");
 
 window.addEventListener("scroll",function(){
  header.classList.toggle("sticky", window.scrollY > 80);
 });
-
-
-
-
-
-
 
 
 
@@ -52,10 +39,6 @@ menu.onclick  = () =>{
   menu.classList.toggle('bx-x')
   navlist.classList.toggle('open');
 }
-
-
-
-
 
 
 
@@ -105,13 +88,6 @@ closePopUp.addEventListener('click', () => {
 
 
 
-
-
-
-
-
-
-
 function validateForm() {
   const name = document.getElementById("name").value.trim();
   const telephone = document.getElementById("telephone").value.trim();
@@ -129,7 +105,7 @@ function validateForm() {
     telephoneError.style.visibility = "visible";
     return false;
   } else if (telephone.length !== 11) {
-    telephoneError.textContent = "Номер телефона должен состоять ровно из 11 цифр.";
+    alert("Номер телефона должен состоять ровно из 11 цифр.");
     telephoneError.style.visibility = "visible";
     return false;
   } else {
@@ -154,7 +130,7 @@ function validateForm() {
     // Reset the form and show it again
     document.getElementById("contactForm").reset();
     document.getElementById("formContainer").style.display = "block";
-  }, 5000);
+  }, 4000);
 
   // Prevent the form from submitting to the server
   return false;
